@@ -1,0 +1,29 @@
+{
+  "users": {
+    "-NJFmJqGzIT3h6_8O_oQ": {
+      "checked": true,
+      "name": "Obaydullah",
+      "sectors": "Construction materials"
+    },
+    "-NJFtvxm0Z1Jd55xZSw8": {
+      "checked": true,
+      "name": "Test 3",
+      "sectors": " Bakery & confectionery products"
+    },
+    "-NJFysVzU_e9KwlMFeu-": {
+      "checked": true,
+      "name": "test 5",
+      "sectors": "Fish & fish products"
+    },
+    "-NJFyuus6kk45WTQJwws": {
+      "checked": true,
+      "name": "test 6",
+      "sectors": "Machinary Components"
+    },
+    "-NJFyxcNUkkkbwpCVgri": {
+      "checked": true,
+      "name": "test 7",
+      "sectors": "Boat building"
+    }
+  }
+}
