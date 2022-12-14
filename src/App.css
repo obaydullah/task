@@ -1,38 +1,98 @@
-.App {
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+form {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 2rem 0;
+}
+
+.formgroup {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+input#name {
+  width: 25rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+select {
+  width: 100%;
+  padding: 2rem;
+}
+
+option.tab-1 {
+  margin-left: 2rem;
+}
+option.tab-2 {
+  margin-left: 4rem;
+}
+option.tab-3 {
+  margin-left: 6rem;
+}
+.check {
+  margin: 2rem 0;
+}
+.check label {
+  margin-left: 1rem;
+}
+button {
+  padding: 1rem 2rem;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.user-btn-div {
+  margin: 2rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.userbox {
+  background-color: green;
+  width: 25rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.userbox h3 {
+  font-size: 2rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.userbox h4 {
+  font-size: 1.5rem;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userbox a {
+  background-color: rgb(138, 50, 50);
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.delete-btn {
+  background-color: rgb(138, 50, 50);
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
